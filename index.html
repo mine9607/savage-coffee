@@ -12,11 +12,28 @@
     />
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-
     <link rel="Stylesheet" href="./style.css" />
-
+    <style>
+        [class*="col"] {
+          padding: 1erm;
+          background-color: #33b5e5;
+          border: 2px solid #fff;
+          color: #fff;
+        }
+        [class*="container"] {
+          font-size: 32px;
+        }
+    </style>
   <body>
     <div class="header">
+      <div class="container-xxl border">
+        <div class="row">
+          <div class="col-xl col-lg-6 col-md-6 col-sm-6">Logo & Name</div>
+          <div class="col-xl col-lg-6 col-md-6 col-sm-6">List of Links</div>
+        </div>
+      </div>
+    </div>
+      
       <div class="logo">
         <img src="https://imgur.com/ucLPHjX.png" alt="Mascot" class="mascot" />
         <p>Savage Coffee Company</p>
@@ -29,7 +46,6 @@
         <li>WHOLESALE</li>
         <!--<li>TRANSPARENCY</li>-->
       </ul>
-    </div>
 
     <div class="call">
       <div class="subscription-text">Coffee Subscription</div>
@@ -38,17 +54,13 @@
       </div>
       <button>Subscribe</button>
     </div>
-    <div class="footer">Text</div>
-    <div class="introduction">
-      <h2>Introduction</h2>
-    </div>
 
-    <div class="main-content">
-      <h2>Main Content</h2>
-    </div>
-
-    <div class="contact-us">
-      <h2>Contact Us</h2>
+    <div class="container border">Featured Coffees
+      <div class="row">
+        <div class="col-xl col-lg-6 col-md-6 col-sm-6">Col 1</div>
+        <div class="col-xl col-lg-6 col-md-6 col-sm-6">Col 2</div>
+        <div class="col-xl col-lg-6 col-md-6 col-sm-6">Col 3</div>
+      </div>
     </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
