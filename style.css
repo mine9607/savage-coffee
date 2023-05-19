@@ -1,0 +1,102 @@
+* {
+  /* border: 2px solid red;*/
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  font-size: 48px;
+  font-family: Chiller, Roboto, sans-serif;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 8px;
+  height: 85px;
+  width: 500px;
+}
+
+.mascot {
+  height: 85px;
+}
+.company-name {
+  font-size: 56px;
+  font-family: Chiller, Roboto, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+  display: flex;
+}
+.header-list {
+  color: black;
+  width: 600px;
+  display: flex;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  list-style-type: none;
+  margin: 0px;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.carousel {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+  /*color: #eeeeee;*/
+}
+
+.introduction {
+  background-color: #548ca8;
+}
+
+.main-content {
+  background-color: #476072;
+}
+
+.contact-us {
+  background-color: #334257;
+}
+
+.call {
+  background-color: rgb(0, 0, 0);
+}
+
+.subscription-text {
+  color: white;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+.subscription-subtext {
+  color: aquamarine;
+  font-size: 18px;
+}
+button {
+  background-color: transparent;
+  font-family: CircularXXXWeb-Regular, sans-serif;
+  color: whitesmoke;
+  font-size: 15px;
+  margin: 17.5px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px solid whitesmoke;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
