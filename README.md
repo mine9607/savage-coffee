@@ -1,4 +1,6 @@
 # savage-coffee
 Coffee Website
 
-This repo contains basic HTML code for displaying a landing page for a coffee website which relies on 3rd party imgur to host the images rendered.
+Repo contains basic HTML code for displaying a landing page for a coffee website.
+
+The code relies on 3rd party imgur to host the images rendered and bootstrap for styling the carousel.
